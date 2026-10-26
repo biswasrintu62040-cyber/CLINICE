@@ -172,49 +172,49 @@ export function HomePage(): React.JSX.Element {
       </section>
 
       {/* SECTION A: Trust & Credibility Strip (Substantiated Operational Facts Only) */}
-      <section className="mx-auto w-full max-w-[1440px] px-4 sm:px-8 lg:px-12 -mt-8 lg:-mt-12 relative z-20">
-        <div className="grid grid-cols-1 gap-6 rounded-2xl border border-white/80 dark:border-white/12 bg-elevated p-6 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="mx-auto w-full max-w-[1440px] px-4 sm:px-8 lg:px-12 -mt-8 lg:-mt-12 relative z-20 bg-white sm:bg-transparent pt-6 sm:pt-0">
+        <div className="grid grid-cols-1 gap-6 rounded-2xl border border-[#0D4A3E]/15 sm:border-white/80 sm:dark:border-white/12 bg-white sm:bg-elevated p-6 sm:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-1">
-            <span className="font-mono text-xs uppercase tracking-wider text-brand-primary">
+            <span className="font-mono text-xs uppercase tracking-wider text-[#0D4A3E] sm:text-brand-primary">
               01. Consultation Tariff
             </span>
-            <p className="font-display text-2xl font-semibold text-fg-primary tabular-nums">
+            <p className="font-display text-2xl font-semibold text-[#0D4A3E] sm:text-fg-primary tabular-nums">
               ₹299 – ₹999 INR
             </p>
-            <p className="text-xs text-fg-muted">
+            <p className="text-xs text-[#166154] sm:text-fg-muted">
               Upfront illustrative fee schedule across General, Specialist &amp; Follow-up care.
             </p>
           </div>
           <div className="space-y-1">
-            <span className="font-mono text-xs uppercase tracking-wider text-brand-primary">
+            <span className="font-mono text-xs uppercase tracking-wider text-[#0D4A3E] sm:text-brand-primary">
               02. Clinical Departments
             </span>
-            <p className="font-display text-2xl font-semibold text-fg-primary tabular-nums">
+            <p className="font-display text-2xl font-semibold text-[#0D4A3E] sm:text-fg-primary tabular-nums">
               11 Specialties
             </p>
-            <p className="text-xs text-fg-muted">
+            <p className="text-xs text-[#166154] sm:text-fg-muted">
               Cardiology, Internal Medicine, Orthopedics, Pediatrics, Neurology &amp; Diagnostics.
             </p>
           </div>
           <div className="space-y-1">
-            <span className="font-mono text-xs uppercase tracking-wider text-brand-primary">
+            <span className="font-mono text-xs uppercase tracking-wider text-[#0D4A3E] sm:text-brand-primary">
               03. Booking Integrity
             </span>
-            <p className="font-display text-2xl font-semibold text-fg-primary">
+            <p className="font-display text-2xl font-semibold text-[#0D4A3E] sm:text-fg-primary">
               Atomic IST Slot Lock
             </p>
-            <p className="text-xs text-fg-muted">
+            <p className="text-xs text-[#166154] sm:text-fg-muted">
               Server-side duplicate-booking prevention in Asia/Kolkata timezone.
             </p>
           </div>
           <div className="space-y-1">
-            <span className="font-mono text-xs uppercase tracking-wider text-brand-primary">
+            <span className="font-mono text-xs uppercase tracking-wider text-[#0D4A3E] sm:text-brand-primary">
               04. Payment Flexibility
             </span>
-            <p className="font-display text-2xl font-semibold text-fg-primary">
+            <p className="font-display text-2xl font-semibold text-[#0D4A3E] sm:text-fg-primary">
               Pay at Hospital / Online
             </p>
-            <p className="text-xs text-fg-muted">
+            <p className="text-xs text-[#166154] sm:text-fg-muted">
               Reserve immediately with Pay-at-Hospital or verified Razorpay checkout.
             </p>
           </div>

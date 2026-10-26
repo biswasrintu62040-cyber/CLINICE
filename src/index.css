@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "./styles/tokens.css";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme inline {
   --color-canvas: var(--surface-canvas);
   --color-elevated: var(--surface-elevated);
@@ -58,11 +60,13 @@
     background-attachment: fixed;
   }
 
-  .dark body {
-    background-image:
-      radial-gradient(1100px circle at 12% 8%, rgba(39, 123, 108, 0.12), transparent 58%),
-      radial-gradient(900px circle at 88% 26%, rgba(212, 180, 117, 0.07), transparent 55%),
-      radial-gradient(1100px circle at 50% 85%, rgba(22, 97, 84, 0.10), transparent 62%);
+  @media (min-width: 640px) {
+    .dark body {
+      background-image:
+        radial-gradient(1100px circle at 12% 8%, rgba(39, 123, 108, 0.12), transparent 58%),
+        radial-gradient(900px circle at 88% 26%, rgba(212, 180, 117, 0.07), transparent 55%),
+        radial-gradient(1100px circle at 50% 85%, rgba(22, 97, 84, 0.10), transparent 62%);
+    }
   }
 
   .dark html,

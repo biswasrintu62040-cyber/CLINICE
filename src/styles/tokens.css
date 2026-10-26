@@ -84,46 +84,48 @@
   --ease-orbai-split: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.dark {
-  /* Semantic Dark Theme ("Night Ward iOS Glass Sanctuary") */
-  --surface-canvas: #071412;
-  --surface-elevated: rgba(12, 33, 29, 0.76);
-  --surface-subtle: rgba(17, 44, 39, 0.68);
-  --surface-deep: #04100E;
-  --surface-glass: rgba(12, 33, 29, 0.72);
+@media (min-width: 640px) {
+  .dark {
+    /* Semantic Dark Theme ("Night Ward iOS Glass Sanctuary") — Desktop/Tablet Only */
+    --surface-canvas: #071412;
+    --surface-elevated: rgba(12, 33, 29, 0.76);
+    --surface-subtle: rgba(17, 44, 39, 0.68);
+    --surface-deep: #04100E;
+    --surface-glass: rgba(12, 33, 29, 0.72);
 
-  --fg-primary: #F4F1EA;
-  --fg-secondary: #C0CFCC;
-  --fg-muted: #93AAA4;
-  --fg-on-brand: #FAF8F5;
+    --fg-primary: #F4F1EA;
+    --fg-secondary: #C0CFCC;
+    --fg-muted: #93AAA4;
+    --fg-on-brand: #FAF8F5;
 
-  --brand-primary: #277B6C;
-  --brand-hover: #359180;
-  --brand-soft: rgba(17, 44, 39, 0.82);
-  --brand-accent: #D4B475;
-  --brand-accent-text: #D4B475;
+    --brand-primary: #277B6C;
+    --brand-hover: #359180;
+    --brand-soft: rgba(17, 44, 39, 0.82);
+    --brand-accent: #D4B475;
+    --brand-accent-text: #D4B475;
 
-  --border-hairline: rgba(42, 84, 75, 0.65);
-  --border-strong: rgba(58, 110, 98, 0.85);
-  --ring-focus: #4E9A8B;
+    --border-hairline: rgba(42, 84, 75, 0.65);
+    --border-strong: rgba(58, 110, 98, 0.85);
+    --ring-focus: #4E9A8B;
 
-  --glass-specular-border: rgba(255, 255, 255, 0.11);
-  --glass-shadow:
-    0 12px 34px -8px rgba(0, 0, 0, 0.42),
-    0 2px 8px -2px rgba(0, 0, 0, 0.28),
-    inset 0 1px 0 0 rgba(255, 255, 255, 0.09);
-  --glass-shadow-hover:
-    0 18px 42px -10px rgba(0, 0, 0, 0.55),
-    0 4px 12px -2px rgba(0, 0, 0, 0.35),
-    inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+    --glass-specular-border: rgba(255, 255, 255, 0.11);
+    --glass-shadow:
+      0 12px 34px -8px rgba(0, 0, 0, 0.42),
+      0 2px 8px -2px rgba(0, 0, 0, 0.28),
+      inset 0 1px 0 0 rgba(255, 255, 255, 0.09);
+    --glass-shadow-hover:
+      0 18px 42px -10px rgba(0, 0, 0, 0.55),
+      0 4px 12px -2px rgba(0, 0, 0, 0.35),
+      inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
 
-  /* Semantic Status Colors (Dark) */
-  --semantic-success: #4ADE80;
-  --semantic-success-bg: rgba(11, 46, 30, 0.82);
-  --semantic-warning: #FACC15;
-  --semantic-warning-bg: rgba(45, 33, 9, 0.82);
-  --semantic-danger: #F87171;
-  --semantic-danger-bg: rgba(51, 16, 16, 0.82);
-  --semantic-info: #38BDF8;
-  --semantic-info-bg: rgba(12, 42, 59, 0.82);
+    /* Semantic Status Colors (Dark) */
+    --semantic-success: #4ADE80;
+    --semantic-success-bg: rgba(11, 46, 30, 0.82);
+    --semantic-warning: #FACC15;
+    --semantic-warning-bg: rgba(45, 33, 9, 0.82);
+    --semantic-danger: #F87171;
+    --semantic-danger-bg: rgba(51, 16, 16, 0.82);
+    --semantic-info: #38BDF8;
+    --semantic-info-bg: rgba(12, 42, 59, 0.82);
+  }
 }
