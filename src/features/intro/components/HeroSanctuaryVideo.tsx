@@ -26,7 +26,7 @@ export const HeroSanctuaryVideo: React.FC<HeroSanctuaryVideoProps> = ({
 
   // Full-hero zero-zoom (scale-100 / transform-none) framing across desktop, tablet, and mobile
   const mediaFramingClass =
-    'h-full w-full object-cover object-[72%_center] sm:object-[66%_center] lg:object-[56%_center] xl:object-center scale-100 transform-none';
+    'h-full w-full object-cover object-[83%_center] sm:object-[66%_center] lg:object-[56%_center] xl:object-center scale-100 transform-none';
 
   useEffect(() => {
     const video = videoRef.current;

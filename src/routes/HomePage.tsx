@@ -122,29 +122,24 @@ export function HomePage(): React.JSX.Element {
                   className="font-display text-[34px] sm:text-5xl lg:text-[64px] xl:text-[68px] font-semibold leading-[1.05] lg:leading-[1.04] tracking-tight text-[#0F1715] max-w-[14ch] [text-shadow:0_2px_18px_rgba(255,255,255,0.72)]"
                 />
 
-                <p className="font-sans text-base sm:text-xl leading-relaxed text-[#14201D] font-medium max-w-xl [text-shadow:0_1px_12px_rgba(255,255,255,0.78)]">
-                  Discover trusted medical professionals, explore specialized healthcare services,
-                  and book your appointment with confidence at our flagship sanctuary.
-                </p>
-
-                <div className="flex flex-wrap items-center gap-3 sm:gap-4 pt-1 lg:pt-3 bg-transparent">
+                <div className="flex flex-col items-start gap-2.5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4 pt-1 lg:pt-3 bg-transparent">
                   <Button
                     intent="primary"
                     size="lg"
                     onClick={() => navigate('/book')}
-                    className="w-full sm:w-auto"
+                    className="w-auto min-h-9 px-3.5 py-2 text-xs rounded-lg gap-1.5 sm:min-h-12 sm:px-7 sm:py-3 sm:text-base sm:rounded-xl sm:gap-2"
                   >
-                    <Calendar className="h-5 w-5" aria-hidden="true" />
+                    <Calendar className="h-3.5 w-3.5 sm:h-5 sm:w-5" aria-hidden="true" />
                     <span>Book an Appointment</span>
                   </Button>
                   <Button
                     intent="secondary"
                     size="lg"
                     onClick={() => navigate('/doctors')}
-                    className="w-full sm:w-auto bg-white/32 hover:bg-white/50 dark:bg-white/20 dark:hover:bg-white/30 backdrop-blur-md border border-white/55 text-[#0F1715] dark:text-[#0F1715]"
+                    className="w-auto min-h-9 px-3.5 py-2 text-xs rounded-lg gap-1.5 sm:min-h-12 sm:px-7 sm:py-3 sm:text-base sm:rounded-xl sm:gap-2 bg-white/32 hover:bg-white/50 dark:bg-white/20 dark:hover:bg-white/30 backdrop-blur-md border border-white/55 text-[#0F1715] dark:text-[#0F1715]"
                   >
                     <span>Explore Our Doctors</span>
-                    <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                    <ArrowRight className="h-3.5 w-3.5 sm:h-4 sm:w-4" aria-hidden="true" />
                   </Button>
                 </div>
               </div>
