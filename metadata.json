@@ -1,0 +1,6 @@
+{
+  "name": "NovaCraft Orbai",
+  "description": "Ultra-premium private hospital and multi-specialty medical appointment booking platform with transparent INR consultation pricing and real-time IST slot reservation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

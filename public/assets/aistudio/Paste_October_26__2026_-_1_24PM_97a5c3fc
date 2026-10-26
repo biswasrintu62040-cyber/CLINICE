@@ -1,0 +1,859 @@
+# MASTER PROMPT — ULTRA-PREMIUM MEDICAL & HOSPITAL APPOINTMENT BOOKING WEBSITE
+
+## 1. Your Mission
+
+Act as a world-class website designer, senior frontend engineer, healthcare UX specialist, motion designer, and full-stack developer.
+
+Build an exceptionally premium, elegant, modern, trustworthy, and fully functional medical and hospital appointment-booking website. The website should feel like a premium private hospital brand combined with Apple's design quality, the sophistication of a luxury healthcare company, and the usability of a world-class digital healthcare platform.
+
+This is NOT a basic doctor website, a simple hospital landing page, or an ordinary appointment form.
+
+Create a complete healthcare website experience where patients can explore medical services, discover doctors, check availability, book appointments, understand consultation pricing in Indian rupees, and receive clear appointment confirmations.
+
+The design must be sophisticated, visually rich, professionally structured, responsive, accessible, and production-oriented.
+
+**Creative freedom:** You have the freedom to make professional design decisions, select the strongest layout, develop a unique visual identity, and implement premium animations. Do not compromise on quality, functionality, or usability.
+
+Do not just describe the website or provide a design concept. Build the actual working website.
+
+---
+
+## 2. Brand Identity and Visual Direction
+
+Create a premium, timeless medical brand identity.
+
+The website should communicate:
+
+- Trust, safety, and medical professionalism.
+- Premium healthcare services.
+- Calmness, cleanliness, and confidence.
+- Modern medical technology.
+- A comfortable patient experience.
+- Luxury without unnecessary visual complexity.
+
+### Visual style
+
+Use a sophisticated combination of:
+
+- Warm white and soft ivory.
+- Deep medical green, elegant teal, or refined navy as the primary brand color.
+- Very subtle neutral gray backgrounds.
+- Carefully controlled accent colors.
+- Premium glass effects only where they genuinely improve the design.
+- Soft shadows, elegant borders, generous spacing, and precise typography.
+
+Avoid making the entire website look like a generic blue hospital template.
+
+Do not use excessive gradients, glowing outlines, random floating cards, unnecessary particles, cartoon illustrations, glitter effects, or cheap-looking animations.
+
+Typography should feel editorial, confident, and premium. Use a sophisticated heading font paired with a highly readable sans-serif font for body text.
+
+Use large, beautiful headings, carefully balanced whitespace, consistent alignment, and excellent visual hierarchy.
+
+Every section must look intentionally designed rather than automatically generated.
+
+The website must look impressive on desktop while remaining equally elegant and usable on mobile.
+
+---
+
+## 3. Signature Opening Animation — Two Panels Opening From the Center
+
+This is one of the most important features. Treat it as a signature brand experience.
+
+When a visitor opens the website for the first time, display a beautiful full-screen animated intro.
+
+### Initial frame
+
+Create a full-viewport cinematic frame with two elegant panels:
+
+- One panel on the left.
+- One panel on the right.
+- Both panels meet precisely in the center.
+- Together, they form one complete, symmetrical, premium opening frame.
+- The frame should look like a luxury medical brand's digital entrance.
+
+The initial screen must feel intentional, polished, minimal, and visually captivating.
+
+Inside this intro, display a refined medical brand mark and a short healthcare-focused message, such as:
+
+**“Your Health. Our Priority.”**
+
+A supporting line may say:
+
+“Exceptional care, designed around you.”
+
+The text should be minimal and beautifully positioned. Do not overload the intro with buttons, paragraphs, or dashboard elements.
+
+Use a soft, elegant background with subtle lighting, refined shapes, and a premium medical aesthetic.
+
+### Center-opening animation
+
+After approximately one second, the two panels should separate smoothly from the exact center:
+
+- The left panel moves toward the left edge.
+- The right panel moves toward the right edge.
+- The website is revealed behind them.
+- Both panels should move symmetrically.
+- The transition should feel like a premium cinematic reveal.
+- The entire opening sequence should generally complete within approximately 1–1.5 seconds.
+
+The animation must be smooth, precise, and fluid, with carefully tuned easing.
+
+It should look as though the website is opening from the center rather than simply fading in.
+
+The underlying website should already be rendered and ready before the panels move. Do not leave a blank screen, display loading errors, or reveal unfinished content.
+
+### Animation quality
+
+Use professional animation techniques such as CSS transforms, GSAP if appropriate, or another lightweight and reliable animation approach.
+
+Create subtle depth, layered movement, and sophisticated transitions without causing lag.
+
+The animation must:
+
+- Run reliably on desktop and mobile.
+- Avoid layout shifts.
+- Avoid excessive GPU usage.
+- Avoid blocking user interaction for too long.
+- Respect reduced-motion accessibility preferences.
+- Avoid replaying on every internal navigation or component update.
+- Provide a graceful experience for returning visitors.
+
+The intro must be built in a way that allows us to replace its background, animation assets, logo, and visual effects in the future.
+
+**Important future requirement:** We may provide custom animation videos, images, backgrounds, or 3D assets later. For now, create a beautiful original placeholder animation using CSS or JavaScript. Structure the implementation so future assets can replace the temporary visuals without rebuilding the entire website.
+
+Do not depend on unavailable future assets to make the current website functional.
+
+---
+
+## 4. Main Hero Section — “Keep Your Health Fit”
+
+Once the opening panels separate, reveal a stunning medical homepage.
+
+Create a premium hero section featuring a clear headline such as:
+
+**“Keep Your Health Fit. Live Your Best Life.”**
+
+Supporting copy:
+
+“Discover trusted medical professionals, explore specialized healthcare services, and book your appointment with confidence.”
+
+Use polished calls to action:
+
+- Book an Appointment
+- Explore Our Doctors
+
+Include a subtle trust statement, for example:
+
+“Personalized care. Experienced professionals. A better healthcare experience.”
+
+### Hero visual
+
+The hero must include a beautiful, high-quality medical image or visual composition.
+
+Possible directions:
+
+- A modern private hospital interior.
+- A professional doctor in a consultation environment.
+- A refined medical team portrait.
+- A premium clinical environment with natural daylight.
+- A contemporary healthcare facility with sophisticated architecture.
+
+The image should be large enough to create a strong visual impact.
+
+Use a balanced layout with text on one side and the image on the other, or create a more distinctive editorial composition if it looks better.
+
+The hero image should feel realistic, premium, warm, and professional — never like a cartoon or an obviously artificial stock illustration.
+
+Add only a few useful floating information elements if they improve the composition. Do not cover the image with too many cards.
+
+The first viewport must immediately communicate quality, trust, and ease of booking.
+
+---
+
+## 5. Premium Medical Image System
+
+Images are essential to this website's identity.
+
+Do not build a text-only website with empty image boxes.
+
+Generate, source, or create suitable visual assets for the following sections:
+
+1. Homepage hero.
+2. Hospital exterior and architecture.
+3. Modern hospital interiors.
+4. Professional medical staff.
+5. Doctor profile portraits.
+6. General medicine.
+7. Cardiology.
+8. Orthopedics.
+9. Pediatrics.
+10. Neurology.
+11. Dermatology.
+12. Women's healthcare.
+13. Diagnostic services.
+14. Preventive health checkups.
+15. Patient consultation environments.
+16. Healthcare facilities and waiting areas.
+17. Patient support or care team section.
+
+Use high-quality, relevant medical imagery throughout the website.
+
+### Image sourcing and generation instructions
+
+If image-generation tools are available, generate original, photorealistic healthcare images with consistent lighting, visual quality, and brand aesthetics.
+
+If image search or image-generation capabilities are available through Google or another connected service, use them appropriately. Do not assume that Google itself will generate images unless the selected tool supports that functionality.
+
+If original images cannot be generated directly, use properly licensed or otherwise authorized image sources.
+
+Do not use unrelated images, broken image URLs, low-resolution visuals, watermarked stock photos, or repeated copies of the same image across every section.
+
+For doctor portraits, use professional and consistent framing.
+
+For hospital interiors, prioritize natural light, modern architecture, clean clinical spaces, realistic materials, and sophisticated photography.
+
+Optimize image sizes and loading behavior. Use responsive images, appropriate aspect ratios, lazy loading below the fold, and meaningful alternative text.
+
+If image assets are temporarily unavailable, use elegant, intentional fallbacks rather than broken images or empty placeholders.
+
+---
+
+## 6. Main Website Navigation
+
+Create a premium, clean, responsive navigation system.
+
+Suggested navigation:
+
+- Home
+- About Us
+- Our Doctors
+- Specialties
+- Medical Services
+- Patient Resources
+- Contact
+
+Place a prominent **Book Appointment** button in the navigation.
+
+Include a refined logo on the left and appropriate account or patient-portal access if implemented.
+
+The navigation should remain readable and easy to use.
+
+On scrolling, it may transition into a compact sticky header with a subtle background and refined shadow.
+
+On mobile, create a smooth, accessible menu with clear navigation and a visible appointment-booking action.
+
+Every navigation item must lead to a real section or working page. Do not create decorative links that do nothing.
+
+---
+
+## 7. Appointment Booking System — Core Functionality
+
+The appointment-booking experience is the central business feature of the website.
+
+Build a professional, step-by-step booking interface that feels simple even for users who are not comfortable with technology.
+
+### Step 1: Select a medical specialty
+
+Allow patients to choose a department, for example:
+
+- General Medicine
+- Cardiology
+- Orthopedics
+- Pediatrics
+- Dermatology
+- Neurology
+- Gynecology
+- ENT
+- Ophthalmology
+- Dentistry, if offered
+- Diagnostic Services
+
+The departments should be configurable.
+
+### Step 2: Select a doctor
+
+Display relevant doctors with:
+
+- Professional portrait.
+- Doctor's name.
+- Verified specialty information where verification exists.
+- Qualifications.
+- Years of experience, when verified.
+- Languages spoken.
+- Consultation fee.
+- Available appointment options.
+- View Profile button.
+- Book Appointment button.
+
+Allow patients to filter doctors by specialty, availability, and other relevant criteria.
+
+Do not invent real doctor credentials, registrations, hospital affiliations, patient reviews, or medical achievements.
+
+Use clearly identified sample data only during development. Do not present fictitious professionals as genuine doctors.
+
+### Step 3: Select appointment type
+
+Offer configurable options, such as:
+
+- In-person consultation.
+- Video consultation, only when supported.
+- Follow-up consultation, if supported.
+
+Show the price and relevant instructions for each option.
+
+### Step 4: Select date and time
+
+Create an elegant date and time selection interface.
+
+Show only appointment slots that are genuinely available.
+
+Display unavailable slots as disabled.
+
+Handle the hospital's configured timezone correctly.
+
+Prevent duplicate bookings through appropriate backend validation and availability checks.
+
+If the backend or booking provider is not connected, do not pretend that live availability has been checked. Clearly communicate that the booking system needs configuration.
+
+### Step 5: Patient details
+
+Collect only the information necessary for the appointment, such as:
+
+- Patient's full name.
+- Mobile number.
+- Email address, if needed.
+- Age or date of birth, if required.
+- Selected appointment type.
+- Optional reason for the visit.
+
+Medical information is sensitive. Keep collection minimal, explain its purpose where appropriate, and protect it properly.
+
+Do not request unnecessary identity documents, passwords, payment credentials, or detailed medical histories.
+
+### Step 6: Review and confirm
+
+Before submission, show a complete summary:
+
+- Doctor.
+- Specialty.
+- Appointment date.
+- Appointment time.
+- Appointment type.
+- Consultation fee.
+- Applicable taxes or additional fees, if configured.
+- Patient details.
+
+Allow the patient to edit details before confirming.
+
+### Step 7: Booking confirmation
+
+After the backend successfully creates the appointment, display a polished confirmation page with:
+
+- Appointment reference number.
+- Doctor's details.
+- Date and time.
+- Location or video-consultation instructions.
+- Fee and payment status.
+- Rescheduling or cancellation instructions, if supported.
+
+Send confirmation notifications through properly configured email, SMS, or WhatsApp integrations where available and authorized.
+
+Do not claim that a notification was sent unless the integration confirms success.
+
+**Critical:** A button click is not a successful booking. A booking is successful only after the server confirms that the appointment was created.
+
+---
+
+## 8. Doctor Directory and Individual Doctor Profiles
+
+Create a dedicated doctor directory with an elegant grid or list layout.
+
+Each doctor card should be visually premium, readable, and consistent.
+
+Include filters, search, specialty selection, and sorting where useful.
+
+Individual doctor profiles should include:
+
+- Portrait.
+- Name and professional title.
+- Specialty.
+- Verified qualifications and registration details, where available.
+- Professional biography.
+- Clinical interests, where verified.
+- Consultation types.
+- Consultation fee.
+- Appointment availability.
+- Hospital location.
+- Languages spoken.
+- Book Appointment action.
+
+Avoid exaggerated claims such as “the number one doctor” or “100% guaranteed results.”
+
+Do not fabricate ratings, testimonials, experience, or qualifications.
+
+If verified information is unavailable, provide an honest, clearly labeled placeholder for authorized administrators to complete.
+
+---
+
+## 9. Medical Specialties and Services
+
+Create a beautifully designed medical specialties section.
+
+Each specialty should have:
+
+- A relevant high-quality image or carefully selected visual.
+- Department name.
+- Short, understandable description.
+- Relevant services.
+- Available doctors, when configured.
+- A clear booking or exploration action.
+
+Use refined cards with subtle hover effects, elegant image cropping, and consistent spacing.
+
+Include a dedicated services section for offerings such as:
+
+- General consultations.
+- Specialist consultations.
+- Diagnostic testing.
+- Preventive health checkups.
+- Vaccination services, if available.
+- Follow-up care.
+- Teleconsultation, if available.
+
+Only show services actually offered or explicitly configured by the hospital.
+
+---
+
+## 10. Pricing Strategy — Indian Rupees
+
+Create a premium consultation pricing experience with prices displayed in Indian rupees.
+
+Use the ₹ symbol consistently.
+
+Suggested initial pricing for the prototype:
+
+| Service | Suggested price |
+|---|---:|
+| General Physician Consultation | ₹499 |
+| Specialist Consultation | ₹799 |
+| Senior Specialist Consultation | ₹999 |
+| Pediatric Consultation | ₹599 |
+| Cardiology Consultation | ₹999 |
+| Dermatology Consultation | ₹699 |
+| Orthopedic Consultation | ₹799 |
+| Follow-up Consultation | ₹299 |
+| Video Consultation | ₹399 |
+
+These are proposed sample prices, not verified hospital fees. Make all prices configurable and clearly identify them as illustrative until the hospital approves them.
+
+Actual prices should depend on the hospital's location, doctor, specialty, appointment type, and business model.
+
+Do not invent package inclusions, discounts, taxes, or payment policies.
+
+### Pricing presentation
+
+Do not make the website look like a cheap pricing-comparison landing page.
+
+Present fees elegantly inside doctor profiles, booking summaries, and a dedicated consultation-fees section if appropriate.
+
+The design should feel transparent and trustworthy.
+
+If payment is supported, integrate a properly configured payment gateway such as Razorpay for the Indian market.
+
+Support relevant payment states such as:
+
+- Payment pending.
+- Payment successful.
+- Payment failed.
+- Refund pending.
+- Refunded.
+
+Do not store raw card details.
+
+Do not mark an appointment as paid merely because the frontend displays a success message. Verify payment status securely on the server using the payment provider's supported verification process.
+
+If no payment integration is configured, provide a clearly labeled payment-pending or pay-at-hospital workflow according to the hospital's actual policy.
+
+---
+
+## 11. Homepage Sections
+
+After the hero section, build the homepage in the following visual sequence, adjusting it where necessary to create the strongest overall design.
+
+### A. Trust and credibility strip
+
+Show only verified or administrator-approved information, such as hospital registration, actual service availability, or genuine operational details.
+
+Do not invent patient counts, years of operation, awards, success rates, or accreditation.
+
+### B. Medical specialties
+
+Display the main departments with premium imagery and concise descriptions.
+
+### C. Featured doctors
+
+Show selected doctors with their portraits, specialties, consultation fees, and booking actions.
+
+### D. How appointment booking works
+
+Create a simple three-step visual explanation:
+
+1. Choose your doctor.
+2. Select your preferred time.
+3. Confirm your appointment.
+
+Use clean icons and restrained animation.
+
+### E. Hospital and facilities
+
+Use large photographs of the actual hospital or approved representative visuals.
+
+Include information about facilities only when it can be substantiated.
+
+### F. Why choose our hospital?
+
+Focus on practical, supportable benefits, such as convenient appointment booking, transparent consultation fees, clear communication, and accessible patient information.
+
+### G. Patient testimonials
+
+Create this section only when genuine, authorized testimonials are available.
+
+Do not invent patient identities, photographs, or reviews. If the hospital has not supplied genuine testimonials, use a different section focused on patient services instead.
+
+### H. Frequently asked questions
+
+Answer practical questions about booking, cancellations, consultation fees, required documents, arrival time, and video consultations.
+
+Make answers configurable to match the hospital's real policies.
+
+### I. Final appointment call to action
+
+Use a premium, spacious section with a strong headline such as:
+
+**“Your Health Deserves Thoughtful Care.”**
+
+Include a clear Book an Appointment button.
+
+### J. Footer
+
+Include:
+
+- Hospital identity and contact information.
+- Address and location map, when configured.
+- Working hours.
+- Medical specialties.
+- Patient resources.
+- Privacy policy.
+- Terms of service.
+- Cancellation and refund policy.
+- Accessibility information.
+- Social links, when available.
+
+Do not invent contact information, hospital addresses, or official social accounts.
+
+---
+
+## 12. Additional Pages
+
+Build a consistent, professionally designed multi-page experience rather than placing everything on one enormous page.
+
+Include:
+
+1. Homepage.
+2. About the Hospital.
+3. Doctor Directory.
+4. Individual Doctor Profile.
+5. Medical Specialties.
+6. Individual Specialty Page.
+7. Appointment Booking.
+8. Booking Confirmation.
+9. Contact Us.
+10. Frequently Asked Questions.
+11. Patient Login or Portal, if implemented.
+12. Privacy Policy.
+13. Terms of Service.
+14. Cancellation and Refund Policy.
+
+Add patient appointment management only when the authentication and backend systems are properly implemented.
+
+Patients should be able to view or manage their own appointments through a secure, authenticated process if that feature is enabled.
+
+---
+
+## 13. Motion Design and Interaction Quality
+
+Use animation to enhance the premium feeling without distracting from healthcare tasks.
+
+Recommended interactions:
+
+- The center-opening intro.
+- Subtle hero image reveal.
+- Smooth section entrance animations.
+- Elegant hover states.
+- Gentle button transitions.
+- Refined navigation transitions.
+- Doctor card hover interactions.
+- Smooth appointment-step transitions.
+- Subtle background movement in selected sections.
+- Polished loading and confirmation states.
+
+Motion should be restrained, consistent, and purposeful.
+
+Do not animate every single element.
+
+Avoid continuous heavy 3D rendering, large particle systems, excessive blur, and expensive effects that slow down low-powered devices.
+
+Use transforms and opacity for most transitions.
+
+Provide a reduced-motion experience for users who prefer minimal animation.
+
+The website must remain fully usable if animation libraries or decorative assets fail to load.
+
+---
+
+## 14. Backend and Data Architecture
+
+If the existing project already has a backend, inspect it first and preserve its established architecture.
+
+Do not replace working backend logic unnecessarily.
+
+If a backend must be created, use a maintainable architecture suitable for a real appointment-booking application.
+
+Potential data entities:
+
+- Doctors.
+- Medical specialties.
+- Services.
+- Appointment slots.
+- Appointments.
+- Patients.
+- Payments.
+- Notification records.
+- Hospital settings.
+- Admin accounts.
+
+Use proper database relationships, validation, error handling, access controls, and appropriate indexing.
+
+### Appointment integrity
+
+Implement server-side safeguards for:
+
+- Slot availability.
+- Duplicate bookings.
+- Concurrent booking attempts.
+- Appointment status changes.
+- Cancellation rules.
+- Rescheduling rules.
+- Payment verification.
+- Timezone consistency.
+
+Use database transactions or appropriate atomic operations where supported.
+
+Do not rely exclusively on frontend checks.
+
+### Security and privacy
+
+Healthcare applications may handle sensitive personal information.
+
+Implement:
+
+- Secure authentication when accounts are enabled.
+- Role-based authorization.
+- Server-side validation.
+- Protected API routes.
+- Rate limiting where appropriate.
+- Secure secret management.
+- Appropriate HTTPS deployment.
+- Minimal collection and retention of personal data.
+- Restricted access to patient records.
+- Safe error messages that do not expose confidential data.
+- Appropriate audit records for sensitive administrative actions.
+
+Never expose secret API keys, payment secrets, database credentials, or private configuration in frontend code.
+
+Do not use real patient data during development.
+
+Do not claim legal or regulatory compliance without the necessary assessment and implementation.
+
+---
+
+## 15. Admin Dashboard — Optional but Recommended
+
+If the project scope supports it, build a separate, secure administrative dashboard.
+
+The dashboard should allow authorized staff to:
+
+- Add and edit doctor profiles.
+- Manage specialties and services.
+- Configure consultation fees.
+- Define appointment availability.
+- View and manage appointments.
+- Approve or reject administrative changes where appropriate.
+- Manage cancellations and rescheduling.
+- Review payment status.
+- Configure hospital contact details.
+- Manage approved images and website content.
+
+Use a clean, functional dashboard design distinct from the public-facing medical website.
+
+Protect all administrative actions with server-side authorization.
+
+Do not expose the admin dashboard or sensitive patient information to ordinary visitors.
+
+---
+
+## 16. Technology and Performance Requirements
+
+First inspect the current project and determine its framework, dependencies, structure, and existing functionality.
+
+Use the current technology stack whenever practical.
+
+If starting from scratch, choose a modern, maintainable stack appropriate for the hosting environment and project requirements.
+
+Use reusable components for:
+
+- Navigation.
+- Doctor cards.
+- Specialty cards.
+- Pricing displays.
+- Booking steps.
+- Date and time selectors.
+- Forms.
+- Confirmation screens.
+- Footer.
+- Loading, error, and empty states.
+
+Avoid unnecessary dependencies.
+
+Optimize for:
+
+- Fast initial page rendering.
+- Good Core Web Vitals.
+- Responsive layouts.
+- Efficient image delivery.
+- Low memory consumption.
+- Accessible controls.
+- Search-engine-friendly page structure.
+- Clean component organization.
+- Maintainable code.
+
+The intro animation must not delay access to essential medical information or the booking process.
+
+Use semantic HTML, proper form labels, keyboard navigation, sufficient contrast, and accessible validation messages.
+
+Ensure that users can navigate and complete bookings without relying on animation or a mouse.
+
+---
+
+## 17. Responsive Design
+
+Test and optimize the complete website for:
+
+- Desktop monitors.
+- Laptops.
+- Tablets.
+- Android smartphones.
+- Smaller mobile screens.
+
+On mobile:
+
+- Keep the logo and navigation clean.
+- Ensure the appointment button is easy to find.
+- Stack hero content intelligently.
+- Use appropriately cropped medical imagery.
+- Make date and time selection comfortable to use.
+- Prevent horizontal overflow.
+- Ensure all forms fit the screen.
+- Keep text readable without unnecessary zooming.
+- Avoid heavy animations that affect performance.
+
+The center-opening intro must adapt to small screens without awkward panel movement or clipped content.
+
+---
+
+## 18. Real Functionality — No Fake Features
+
+Do not create a visually impressive but nonfunctional prototype and call it production-ready.
+
+Every visible interactive element must work as expected.
+
+This includes:
+
+- Navigation.
+- Doctor search.
+- Filters.
+- Doctor profiles.
+- Appointment forms.
+- Date and time selection.
+- Booking validation.
+- Appointment confirmation.
+- Contact forms.
+- Patient account actions, if implemented.
+- Payment integration, if enabled.
+- Administrative controls, if implemented.
+
+Do not create fake booking confirmations, fake payment success, fabricated doctor availability, or invented hospital statistics.
+
+Do not use mock data in production without clearly identifying it and preventing it from being mistaken for real information.
+
+If a required integration is not configured, explain precisely what is missing and provide an appropriate configuration path.
+
+Do not silently replace a failed backend operation with a fake success message.
+
+---
+
+## 19. Quality Assurance and Final Verification
+
+Before declaring the website complete:
+
+1. Inspect the entire existing project.
+2. Implement the complete visual experience.
+3. Verify that all pages load.
+4. Test all navigation links.
+5. Test doctor search and filters.
+6. Test booking validation.
+7. Test unavailable time slots.
+8. Test duplicate-booking prevention.
+9. Test server-side booking creation.
+10. Test payment states if payment is configured.
+11. Test mobile and desktop layouts.
+12. Test the intro animation and reduced-motion behavior.
+13. Check image loading and fallbacks.
+14. Check browser console errors.
+15. Check backend logs and API failures.
+16. Check authentication and authorization where applicable.
+17. Verify that sensitive data and secret keys are not exposed.
+18. Run the project's available linting, build, and test commands.
+19. Fix errors found during verification.
+20. Re-run the relevant tests after fixes.
+
+Report actual test results. Never claim a test passed if it was not executed.
+
+---
+
+## 20. Final Design Standard
+
+The finished website should feel like an established, premium private healthcare brand — not a generic template.
+
+The most important priorities are:
+
+1. The cinematic center-opening intro.
+2. A beautiful and highly visible medical hero section.
+3. Exceptional, relevant medical imagery throughout the website.
+4. Elegant typography, sophisticated colors, and excellent spacing.
+5. A simple, reliable appointment-booking journey.
+6. Transparent INR consultation pricing.
+7. Professional doctor profiles and specialty pages.
+8. Real functionality and secure handling of patient information.
+9. Smooth animations that do not compromise speed.
+10. A consistent, polished experience across every screen size.
+
+Use your judgment to refine the design beyond these specifications where doing so improves the result.
+
+Do not stop after creating the homepage. Complete the agreed website scope, connect the necessary functionality, test the implementation, and clearly report any remaining configuration requirements.
+
+**Final instruction:** Build a genuinely premium medical appointment-booking website with a distinctive center-opening cinematic intro, realistic medical visuals, refined Indian-rupee pricing, and a reliable booking experience. Prioritize trust, elegance, accessibility, speed, and real functionality over unnecessary visual effects.
+
+The final result should be impressive enough to present to a serious hospital or healthcare business as a premium website proposal.

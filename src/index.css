@@ -1,0 +1,123 @@
+@import "tailwindcss";
+@import "./styles/tokens.css";
+
+@theme inline {
+  --color-canvas: var(--surface-canvas);
+  --color-elevated: var(--surface-elevated);
+  --color-subtle: var(--surface-subtle);
+  --color-deep: var(--surface-deep);
+
+  --color-fg-primary: var(--fg-primary);
+  --color-fg-secondary: var(--fg-secondary);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-on-brand: var(--fg-on-brand);
+
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-accent: var(--brand-accent);
+  --color-brand-accent-text: var(--brand-accent-text);
+
+  --color-border-hairline: var(--border-hairline);
+  --color-border-strong: var(--border-strong);
+  --color-ring-focus: var(--ring-focus);
+
+  --color-semantic-success: var(--semantic-success);
+  --color-semantic-success-bg: var(--semantic-success-bg);
+  --color-semantic-warning: var(--semantic-warning);
+  --color-semantic-warning-bg: var(--semantic-warning-bg);
+  --color-semantic-danger: var(--semantic-danger);
+  --color-semantic-danger-bg: var(--semantic-danger-bg);
+  --color-semantic-info: var(--semantic-info);
+  --color-semantic-info-bg: var(--semantic-info-bg);
+
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+
+  --ease-orbai-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-orbai-split: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: var(--surface-canvas);
+    color: var(--fg-primary);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+    background-color: var(--surface-canvas);
+    background-image:
+      radial-gradient(1100px circle at 10% 6%, rgba(13, 74, 62, 0.055), transparent 58%),
+      radial-gradient(950px circle at 90% 24%, rgba(197, 160, 89, 0.065), transparent 55%),
+      radial-gradient(1200px circle at 50% 82%, rgba(22, 97, 84, 0.045), transparent 62%);
+    background-attachment: fixed;
+  }
+
+  .dark body {
+    background-image:
+      radial-gradient(1100px circle at 12% 8%, rgba(39, 123, 108, 0.12), transparent 58%),
+      radial-gradient(900px circle at 88% 26%, rgba(212, 180, 117, 0.07), transparent 55%),
+      radial-gradient(1100px circle at 50% 85%, rgba(22, 97, 84, 0.10), transparent 62%);
+  }
+
+  .dark html,
+  html.dark {
+    letter-spacing: 0.005em;
+  }
+
+  h1, h2, .font-editorial {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* iPhone-Inspired Frosted Glass Surface System */
+.bg-elevated {
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: var(--glass-shadow);
+}
+
+.bg-subtle {
+  backdrop-filter: blur(12px) saturate(150%);
+  -webkit-backdrop-filter: blur(12px) saturate(150%);
+}
+
+.glass-card-interactive {
+  backdrop-filter: blur(22px) saturate(185%);
+  -webkit-backdrop-filter: blur(22px) saturate(185%);
+  box-shadow: var(--glass-shadow);
+  transition:
+    transform 260ms var(--ease-orbai-out),
+    box-shadow 260ms var(--ease-orbai-out),
+    border-color 260ms var(--ease-orbai-out),
+    background-color 260ms var(--ease-orbai-out);
+}
+
+.glass-card-interactive:hover {
+  box-shadow: var(--glass-shadow-hover);
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .glass-card-interactive:hover {
+    transform: none;
+  }
+}
